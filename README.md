@@ -1,5 +1,7 @@
 # go-password-validator
 
+NOTE: Forked just to change language to danish
+
 Simple password validator using raw entropy values. Hit the project with a star if you find it useful ⭐
 
 Supported by [Qvault](https://qvault.io)
