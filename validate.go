@@ -52,24 +52,24 @@ func Validate(password string, minEntropy float64) error {
 	allMessages := []string{}
 
 	if !hasOtherSpecial || !hasSep || !hasReplace {
-		allMessages = append(allMessages, "including more special characters")
+		allMessages = append(allMessages, "brug flere specialtegn")
 	}
 	if !hasLower {
-		allMessages = append(allMessages, "using lowercase letters")
+		allMessages = append(allMessages, "ved hjælp af små bogstaver")
 	}
 	if !hasUpper {
-		allMessages = append(allMessages, "using uppercase letters")
+		allMessages = append(allMessages, "ved hjælp af store bogstaver")
 	}
 	if !hasDigits {
-		allMessages = append(allMessages, "using numbers")
+		allMessages = append(allMessages, "ved hjælp af tal")
 	}
 
 	if len(allMessages) > 0 {
 		return fmt.Errorf(
-			"insecure password, try %v or using a longer password",
+			"usikker adgangskode, prøv %v eller brug en længere adgangskode",
 			strings.Join(allMessages, ", "),
 		)
 	}
 
-	return errors.New("insecure password, try using a longer password")
+	return errors.New("usikker adgangskode, prøv at bruge en længere adgangskode")
 }
