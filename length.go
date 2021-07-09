@@ -5,7 +5,7 @@ const (
 	seqKeyboard0 = "qwertyuiop"
 	seqKeyboard1 = "asdfghjkl"
 	seqKeyboard2 = "zxcvbnm"
-	seqAlphabet  = "abcdefghijklmnopqrstuvwxyz"
+	seqAlphabet  = "abcdefghijklmnopqrstuvwxyzæøå"
 )
 
 func removeMoreThanTwoFromSequence(s, seq string) string {

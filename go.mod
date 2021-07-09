@@ -1,3 +1,3 @@
-module github.com/wagslane/go-password-validator
+module github.com/jbdk/go-password-validator
 
 go 1.16

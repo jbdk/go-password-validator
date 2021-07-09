@@ -6,8 +6,8 @@ const (
 	replaceChars      = `!@$&*`
 	sepChars          = `_-., `
 	otherSpecialChars = `"#%'()+/:;<=>?[\]^{|}~`
-	lowerChars        = `abcdefghijklmnopqrstuvwxyz`
-	upperChars        = `ABCDEFGHIJKLMNOPQRSTUVWXYZ`
+	lowerChars        = `abcdefghijklmnopqrstuvwxyzaøå`
+	upperChars        = `ABCDEFGHIJKLMNOPQRSTUVWXYZÆØÅ`
 	digitsChars       = `0123456789`
 )
 
